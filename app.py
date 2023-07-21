@@ -19,6 +19,8 @@ grk_model = pickle.load(open(grk_filename, 'rb'))
 eng_filename = 'gensim-cbow-model-english-500'
 eng_model = pickle.load(open(eng_filename, 'rb'))
 
+st.set_page_config(page_title=Homeric Word Embeddings, page_icon=":sailboat:", layout="centered", initial_sidebar_state="expanded")
+
 @st.cache_data 
 def append_list(sim_words, words):
     
