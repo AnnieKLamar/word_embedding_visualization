@@ -248,7 +248,7 @@ dim_red = st.sidebar.selectbox(
  ('TSNE','PCA'))
 dimension = st.sidebar.radio(
      "Select the dimension of the visualization",
-     ('3D', '2D'))
+     ('2D', '3D'))
 user_input = st.sidebar.text_input("Type the word that you want to investigate. You can type more than one word by separating one word with other with comma (,).")
 top_n = st.sidebar.slider('Select the amount of words associated with the input words you want to visualize ', 5, 100, (5))
 annotation = st.sidebar.radio(
