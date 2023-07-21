@@ -255,7 +255,7 @@ annotation = st.sidebar.radio(
      "Enable or disable the annotation on the visualization", ('On', 'Off'))  
 
 if dim_red == 'TSNE':
-    perplexity = st.sidebar.slider('Adjust the perplexity.', (5), 50, 30)
+    perplexity = st.sidebar.slider('Adjust the perplexity.', 5, 50, (5))
     
     learning_rate = st.sidebar.slider('Adjust the learning rate', 10, 1000, (200))
     
