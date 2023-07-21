@@ -2,4 +2,4 @@ numpy
 streamlit
 plotly
 scikit-learn
-
+gensim
