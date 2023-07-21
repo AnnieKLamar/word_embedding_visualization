@@ -99,7 +99,7 @@ def display_scatterplot_3D(model, user_input=None, words=None, label=None, color
                     marker = {
                         'size': 10,
                         'opacity': 1,
-                        'color': 'white'
+                        'color': 'black'
                     }
                     )
 
@@ -115,7 +115,7 @@ def display_scatterplot_3D(model, user_input=None, words=None, label=None, color
         font=dict(
             family="Courier New",
             size=25,
-            color="white"
+            color="black"
         )),
         font = dict(
             family = " Courier New ",
@@ -202,7 +202,7 @@ def display_scatterplot_2D(model, user_input=None, words=None, label=None, color
                     marker = {
                         'size': 25,
                         'opacity': 1,
-                        'color': 'white'
+                        'color': 'black'
                     }
                     )
 
